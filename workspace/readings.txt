@@ -1,0 +1,11 @@
+https://en.wikipedia.org/wiki/Machine_learning
+Notes:
+Perhaps it may not be feasible? 
+Is there such "underlying function" to all linear programs (and perahps even of non-linear programs) such that they may be solved or atleast estimated instantanesouly?
+Could this be related to an NP Problem? Could I use this to predict if a program halts or not?
+No I don't think so, since linear programs either have either have one solution, many solutions, or no solutions.
+The detection of many solutions should be intuitive no, as one could have an algorithm, when learned to classify (and find) the optimal solution, could one generalize this?
+As to "graph" (as much as graphing allows in n-dimensional spaces) and premptivly solve the problem, which would then be used to train the evoluation algorithms.
+Perhaps then you could even vary the paremeters, and then have a multi-armed approach to selecting the model with the best reward expecation (or in other words highest safe accuracy [meaning the feasible search space which is constrained and does not enter the in feasible region and contains the optimal point]).
+Which then we would vary the problems and dimensions, hopefully arriving at a model which may instantly evaluate linear programs like we do with two dimensional linear programs with a cost vector (we certainly don't interate over every basic feasible solution until we arrive at the optimal feasible solution).
+
