@@ -43,7 +43,7 @@ The current model is a simple neural network consisting of Dense layers. Input d
 
 1. **Install Dependencies:**
    ```bash
-   pip install numpy scipy matplotlib pulp
+   pip install numpy scipy matplotlib pulp pickle tensorflow
    ```
 
 **Project Structure (In Development)**
