@@ -1,2 +1,7 @@
-
 /.vscode
+myenv/
+*.pyc
+__pycache__/
+.DS_Store
+*.pyo
+.venv/
