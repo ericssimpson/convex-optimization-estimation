@@ -10,6 +10,7 @@ setup(
         'numpy',
         'pulp',
         'scipy',
+        'seaborn',
     ],
     entry_points={
         'console_scripts': [
